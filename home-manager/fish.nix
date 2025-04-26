@@ -28,6 +28,7 @@
       hotspot = "sudo nmcli device wifi connect 'Varun (2)'";
       wifi = "sudo ifconfig wlp4s0";
       eth = "sudo ifconfig eno1";
+      token = "echo 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";
     };
   };
 }
