@@ -82,6 +82,12 @@
 	};
       };
 
+      cursor = {
+        enable_hyprcursor = false;
+        no_warps = true;
+	no_hardware_cursors = 2;
+      };
+
       gestures = {
         workspace_swipe = true;
 	workspace_swipe_forever = true;
