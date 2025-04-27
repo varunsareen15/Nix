@@ -16,7 +16,7 @@
 
   disabledModules = [
     # ./modules/xserver.nix
-    ./modules/hyprland.nix
+    # ./modules/hyprland.nix
   ];
 
   networking.hostName = "unit"; 
