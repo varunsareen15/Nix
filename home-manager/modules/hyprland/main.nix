@@ -4,7 +4,7 @@
     xwayland.enable = true;
 
     settings = {
-      monitor = ",1920x1080x144,auto,1";
+      monitor = ",preferred,auto,auto";
 
       env = [
 	"NIXOS_OZONE_WL,1"
