@@ -2,7 +2,9 @@
   wayland.windowManager.hyprland = {
     enable = true;
     xwayland.enable = true;
-
+    package = null;
+    portalPackage = null;
+		
     settings = {
       monitor = ",preferred,auto,auto";
 
@@ -36,7 +38,7 @@
           natural_scroll = true;
 	  clickfinger_behavior = true;
 	  tap-and-drag = false;
-	  disable_when_typing = false;
+	  # disable_when_typing = false;
 	  tap_button_map = "lrm";
         };
 
@@ -60,7 +62,7 @@
 
       dwindle = {
         preserve_split = true;
-	pseudo_tile = false;
+	# pseudo_tile = false;
       };
 
       general = {
