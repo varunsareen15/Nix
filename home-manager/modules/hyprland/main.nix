@@ -4,11 +4,6 @@
     xwayland.enable = true;
 
     settings = {
-      "$mainMod" = "SUPER";
-      "$terminal" = "alacritty";
-      "$fileManager" = "$terminal -e sh -c 'ranger'";
-      "$menu" = "wofi";
-
       monitor = ",1920x1080x144,auto,1";
 
       env = [
@@ -22,6 +17,8 @@
       ];
 
       exec-once = [
+	"swww init"
+	"swww img ~/Pictures/Wallpapers/fog_forest_2.png"
         "waybar"
         "wl-paste --type text --watch cliphist store"
         "wl-paste --type image --watch cliphist store"

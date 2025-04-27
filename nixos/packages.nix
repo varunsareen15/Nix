@@ -46,6 +46,17 @@
     home-manager
     ranger
     wofi
+    swww
+    xwayland
+    wl-clipboard
+    cliphist
+    file 
+    scrot
+    hyprland
+    seatd
+    xdg-desktop-portal-hyprland
+    polybar
+    waybar
   ];
 
   fonts.packages = with pkgs; [
