@@ -14,6 +14,10 @@
     options = "--delete-older-than 30d";
   };
 
+  disabledModules = [
+    ./modules/xserver.nix
+  ];
+
   networking.hostName = "unit"; 
 
   time.timeZone = "America/Chicago";
