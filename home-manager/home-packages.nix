@@ -49,6 +49,7 @@
     zip
     tree
     btop
+    ani-cli
 
     # Coding stuff
     nodejs
