@@ -15,6 +15,9 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    nvf = {
+      url = "github:notashelf/nvf";
+    };
   };
 
   outputs = { self, nixpkgs, home-manager, ... }@inputs: let
