@@ -57,15 +57,18 @@
     rustup
     cmake
     clang
+
     # WM packages
     libsForQt5.xwaylandvideobridge
     libnotify
     xdg-desktop-portal-gtk
     xdg-desktop-portal-hyprland
+    hyprshot
 
     # Misc
     cmatrix
     bemoji
     nix-prefetch-scripts
+    rtorrent
   ];
 }

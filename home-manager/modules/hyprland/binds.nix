@@ -4,6 +4,7 @@
     "$terminal" = "alacritty";
     "$fileManager" = "$terminal -e sh -c 'ranger'";
     "$menu" = "wofi";
+    "$screenshot" = "hyprshot -m region --clipboard only";
 
     bind = [
       "$mainMod, Return, exec, $terminal"
@@ -12,6 +13,10 @@
       "$mainMod, D, exec, $menu --show drun"
       "$mainMod, E, exec, $fileManager"
       "$mainMod, F, fullscreen,"
+      "$mainMod, PRINT, exec, $screenshot"
+      ",PRINT, exec, hyprshot -m output --clipboard-only"
+      "$mainMod, B, exec, brave"
+      "$mainMod, L, exec, hyprlock --immediate"
 
       # Switching workspaces
       "$mainMod, 1, workspace, 1"
