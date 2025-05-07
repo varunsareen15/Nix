@@ -9,5 +9,6 @@
     ./hyprland
     ./waybar 
     ./wofi
+    ./nvf
   ];	
 }
