@@ -1,6 +1,4 @@
-{ pkgs, ... }:
-
-{
+{pkgs, ...}: {
   nixpkgs.config.allowUnfree = true;
 
   home.packages = with pkgs; [
@@ -16,7 +14,6 @@
     spotify
     zathura
     vscode
-    neovim
     ranger
 
     # CLI utils
@@ -50,6 +47,7 @@
     tree
     btop
     ani-cli
+    bat
 
     # Coding stuff
     nodejs
@@ -71,5 +69,6 @@
     bemoji
     nix-prefetch-scripts
     rtorrent
+    openvpn
   ];
 }

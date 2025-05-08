@@ -66,9 +66,9 @@
       light = "Papirus-Light";
     };
     
-      image = pkgs.fetchurl {
-      url = "https://codeberg.org/lunik1/nixos-logo-gruvbox-wallpaper/raw/branch/master/png/gruvbox-dark-rainbow.png";
-      sha256 = "036gqhbf6s5ddgvfbgn6iqbzgizssyf7820m5815b2gd748jw8zc";
+    image = pkgs.fetchurl {
+      url = "https://github.com/Gwynsav/walls/raw/master/gruvbox/Platform.jpg";
+      sha256 = "1ig7n60phjj0ksy0g9xdwyi7rmzb0k0fx57nbbmh7krg1zdjn2v5";
     };
   };
 }

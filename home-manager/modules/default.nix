@@ -6,6 +6,7 @@
     ./stylix.nix
     ./lazygit.nix
     ./alacritty.nix
+    ./neovim.nix
     ./hyprland
     ./waybar 
     ./wofi
