@@ -26,6 +26,7 @@
 
     hosts = [
       { hostname = "unit"; stateVersion = "24.11"; }
+      { hostname = "geass"; stateVersion = "24.11"; }
     ];
 
     makeSystem = { hostname, stateVersion }: nixpkgs.lib.nixosSystem {
