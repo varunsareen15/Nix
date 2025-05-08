@@ -70,5 +70,6 @@
     nix-prefetch-scripts
     rtorrent
     openvpn
+    networkmanagerapplet
   ];
 }
