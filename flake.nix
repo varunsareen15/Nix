@@ -2,7 +2,6 @@
   description = "My system configuration";
 
   inputs = {
-
     nixpkgs.url = "github:nixos/nixpkgs/nixos-24.11";
 
     home-manager = {
@@ -24,6 +23,7 @@
     system = "x86_64-linux";
     homeStateVersion = "24.11";
     user = "varun";
+
     hosts = [
       { hostname = "unit"; stateVersion = "24.11"; }
     ];
@@ -49,6 +49,7 @@
 
     homeConfigurations.${user} = home-manager.lib.homeManagerConfiguration {
       pkgs = nixpkgs.legacyPackages.${system};
+
       extraSpecialArgs = {
         inherit inputs homeStateVersion user;
       };
