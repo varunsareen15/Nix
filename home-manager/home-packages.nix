@@ -71,5 +71,7 @@
     rtorrent
     openvpn
     networkmanagerapplet
+    unimatrix
+    cava
   ];
 }
