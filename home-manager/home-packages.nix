@@ -70,8 +70,8 @@
     nix-prefetch-scripts
     rtorrent
     openvpn
-    networkmanagerapplet
     unimatrix
     cava
+    flatpak
   ];
 }
