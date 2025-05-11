@@ -15,7 +15,8 @@
     font-awesome
     powerline-fonts
     powerline-symbols
-    (nerdfonts.override { fonts = [ "NerdFontsSymbolsOnly" ]; })
+    nerd-fonts._0xproto
+    nerd-fonts.droid-sans-mono
   ];
 
   stylix = {
@@ -29,6 +30,7 @@
       wofi.enable = false;
       hyprland.enable = false;
       hyprlock.enable = false;
+      mako.enable = false;
     };
 
     cursor = {
