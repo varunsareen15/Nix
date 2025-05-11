@@ -7,7 +7,6 @@
     ./lazygit.nix
     ./alacritty.nix
     ./neovim.nix
-    ./spotifyd.nix
     ./hyprland
     ./waybar 
     ./wofi
