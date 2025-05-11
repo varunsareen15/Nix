@@ -3,10 +3,8 @@
     enable = true;
     settings = {
       general = {
-        disable_loading_bar = true;
         grace = 10;
         hide_cursor = true;
-        no_fade_in = false;
       };
 
       label = {
@@ -14,9 +12,10 @@
         font_size = 96;
         font_family = "JetBrains Mono";
         color = "rgba(235, 219, 178, 1.0)";
-        position = "0, 600";
+        position = "0, 100";
         halign = "center";
-        walign = "center";
+        valign = "center";
+        text_align = "center";
 
         shadow_passes = 1;
       };
