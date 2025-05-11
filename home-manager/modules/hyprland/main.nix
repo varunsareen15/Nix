@@ -4,7 +4,7 @@
     systemd.enable = true;
 
     settings = {
-      monitor = ",preferred,auto,auto";
+      monitor = ",highres@highrr,auto,1";
 
       env = [
 	"NIXOS_OZONE_WL,1"
