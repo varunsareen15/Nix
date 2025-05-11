@@ -72,6 +72,5 @@
     openvpn
     unimatrix
     cava
-    flatpak
   ];
 }
