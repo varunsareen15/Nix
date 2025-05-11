@@ -1,7 +1,7 @@
 {
   wayland.windowManager.hyprland.settings = {
     "$mainMod" = "SUPER";
-    "$terminal" = "alacritty";
+    "$terminal" = "alacritty --working-directory ~";
     "$fileManager" = "$terminal -e sh -c 'ranger'";
     "$menu" = "wofi";
     "$screenshot" = "hyprshot -m region --clipboard only";
