@@ -17,6 +17,7 @@
       ",PRINT, exec, hyprshot -m output --clipboard-only"
       "$mainMod, B, exec, brave"
       "$mainMod, L, exec, hyprlock --immediate"
+      "$mainMod, Z, exec, flatpak run --socket=wayland app.zen_browser.zen"
 
       # Switching workspaces
       "$mainMod, 1, workspace, 1"

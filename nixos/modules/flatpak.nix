@@ -10,4 +10,4 @@
       pkgs.xdg-desktop-portal-wlr
     ];
   };
-
+}
