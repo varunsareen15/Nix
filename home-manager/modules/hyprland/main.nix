@@ -5,6 +5,7 @@
 
     settings = {
       monitor = ",preferred,auto,1";
+      monitor = "HDMI-A-1,1920x1080@144,auto,1";
 
       env = [
 	"NIXOS_OZONE_WL,1"
@@ -23,17 +24,29 @@
 
       animations = {
         enabled = true;
-
         
-        bezier = "myBezier, 0.05, 0.9, 0.1, 1.05";
+        bezier = [
+          "smoothOut, 0.36, 0, 0.66, -0.56"
+          "smoothIn, 0.25, 1, 0.5, 1"
+          "overshot, 0.05, 0.9, 0.1, 1.1"
+          "bounce, 1, 1.6, 0.1, 0.85"
+          "slingshot, 1, -1, 0.15, 1.25"
+          "myBezier, 0.05, 0.9, 0.1, 1.05"
+        ];
 
         animation = [
-          "windows,     1, 7,  myBezier"
-          "windowsOut,  1, 7,  default, popin 80%"
-          "border,      1, 10, default"
-          "borderangle, 1, 8,  default"
-          "fade,        1, 7,  default"
-          "workspaces,  1, 6,  default"
+          "windows, 1, 5, overshot, slide"
+          "windowsOut, 1, 4, smoothOut, slide"
+          "windowsMove, 1, 4, smoothIn"
+          "fade, 1, 5, smoothIn"
+          "fadeOut, 1, 5, smoothOut"
+          "fadeSwitch, 1, 5, smoothIn"
+          "fadeShadow, 1, 5, smoothIn"
+          "fadeDim, 1, 5, smoothIn"
+          "border, 1, 10, default"
+          "borderangle, 1, 8, default"
+          "workspaces, 1, 5, bounce, slidevert"
+          "specialWorkspace, 1, 5, slingshot, slidevert"
         ];
       };
 
