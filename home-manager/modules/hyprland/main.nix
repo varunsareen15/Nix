@@ -12,6 +12,8 @@
 	"XDG_SESSION_TYPE,wayland"
 	"XDG_SESSION_DESKTOP,Hyprland"
 	"QT_QPA_PLATFORM,wayland"
+        "LIBVA_DRIVER_NAME,nvidia"
+        "__GLX_VENDOR_LIBRARY_NAME,nvidia"
         "XDG_SCREENSHOTS_DIR,~/Pictures/Screenshots"
       ];
 
