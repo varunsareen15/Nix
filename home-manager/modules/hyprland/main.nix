@@ -106,7 +106,7 @@
       cursor = {
         enable_hyprcursor = false;
         no_warps = true;
-	no_hardware_cursors = 2;
+	no_hardware_cursors = true;
       };
 
       gestures = {
