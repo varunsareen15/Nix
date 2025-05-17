@@ -63,6 +63,7 @@
     xdg-desktop-portal-gtk
     xdg-desktop-portal-hyprland
     hyprshot
+    wlr-randr
 
     # Misc
     cmatrix

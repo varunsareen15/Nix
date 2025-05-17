@@ -6,7 +6,7 @@
     settings = {
       monitor = [
         "HDMI-A-1,2560x1440@144,-2560x0,1"
-        "eDP-1,2560x1440@165,0x0,1"
+        "eDP-1,preferred,0x0,1"
       ];
 
       env = [
