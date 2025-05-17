@@ -4,7 +4,10 @@
     systemd.enable = true;
 
     settings = {
-      monitor = ",preferred,auto,1";
+      monitor = [
+        "HDMI-A-1,2560x1440@144,-2560x0,1"
+        "eDP-1,2560x1440@165,0x0,1"
+      ];
 
       env = [
 	"NIXOS_OZONE_WL,1"
