@@ -48,6 +48,7 @@
     btop
     ani-cli
     bat
+    sqlcmd
 
     # Coding stuff
     nodejs
@@ -59,6 +60,10 @@
     openssl
     pkg-config
     libpq
+    unixODBC
+    freetds
+    glibc
+    dotnet-sdk
 
     # WM packages
     libsForQt5.xwaylandvideobridge
