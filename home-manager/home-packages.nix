@@ -56,6 +56,9 @@
     rustup
     cmake
     clang
+    openssl
+    pkg-config
+    libpq
 
     # WM packages
     libsForQt5.xwaylandvideobridge
