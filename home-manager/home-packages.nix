@@ -15,6 +15,7 @@
     zathura
     vscode
     ranger
+    zoom-us
 
     # CLI utils
     bc
