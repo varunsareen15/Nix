@@ -12,7 +12,7 @@
         flakeDir = "/home/varun/nix";
       in {
       nrs = "sudo nixos-rebuild switch --flake ${flakeDir}";
-      upd = "nix flake update ${flakeDir}";
+      upd = "nix flake update --flake ${flakeDir}";
       upg = "sudo nixos-rebuild switch --upgrade --flake ${flakeDir}";
 
       hms = "home-manager switch --flake ${flakeDir}";
@@ -29,6 +29,7 @@
       BX17 = "bluetoothctl connect 59:21:E5:C7:1E:2B";
       bose = "bluetoothctl connect C8:7B:23:A1:D6:F8";
       zen = "flatpak run --socket=wayland app.zen_browser.zen";
+      mssql = "sqlcmd -S onanatrials.database.windows.net -U onana -P sqltrial@123";
     };
   };
 }
