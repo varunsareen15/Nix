@@ -6,7 +6,7 @@
   users = {
     users.${user} = {
       isNormalUser = true;
-      extraGroups = [ "wheel" ];
+      extraGroups = [ "wheel" "vboxusers" ];
       shell = pkgs.fish;
     };
   };
