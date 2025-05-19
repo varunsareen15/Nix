@@ -16,6 +16,7 @@
     vscode
     ranger
     zoom-us
+    virtualbox
 
     # CLI utils
     bc
