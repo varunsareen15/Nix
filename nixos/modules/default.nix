@@ -15,5 +15,6 @@
     ./ssh.nix
     ./printing.nix
     ./trackpad.nix
+    ./virtualisation.nix
   ];
 }
