@@ -16,7 +16,10 @@
     vscode
     ranger
     zoom-us
-    virtualbox
+    qemu
+    virt-manager
+    wine
+    libreoffice-qt6
 
     # CLI utils
     bc

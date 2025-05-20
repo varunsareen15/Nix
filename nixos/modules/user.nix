@@ -6,7 +6,7 @@
   users = {
     users.${user} = {
       isNormalUser = true;
-      extraGroups = [ "wheel" "vboxusers" ];
+      extraGroups = [ "wheel" "libvirtd" "kvm" ];
       shell = pkgs.fish;
     };
   };
