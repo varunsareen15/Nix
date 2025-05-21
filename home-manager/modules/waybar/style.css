@@ -24,22 +24,11 @@ window#waybar {
   background: #d65d0e;
 }
 
-#clock, #battery, #pulseaudio, #tray, #language, #weather {
+#clock, #battery, #pulseaudio, #tray {
   padding: 0 10px;
   margin: 0 10px;
 }
 
-#language {
-  margin: 0;
-  color: #d79921;
-  border-bottom: 5px solid #d79921;
-}
-
-#custom-weather {
-  margin: 0;
-  color: #98971a;
-  border-bottom: 5px solid #98971a
-}
 
 #pulseaudio {
   margin: 0;
