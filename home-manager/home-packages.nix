@@ -54,6 +54,7 @@
     ani-cli
     bat
     sqlcmd
+    rclone
 
     # Coding stuff
     nodejs
