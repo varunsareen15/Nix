@@ -70,6 +70,7 @@
     freetds
     glibc
     dotnet-sdk
+    texliveFull
 
     # WM packages
     libsForQt5.xwaylandvideobridge
