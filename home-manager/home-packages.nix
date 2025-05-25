@@ -9,8 +9,6 @@
     obs-studio
     pavucontrol
     teams-for-linux
-    brave
-    discord
     spotify
     zathura
     vscode
@@ -88,5 +86,8 @@
     openvpn
     unimatrix
     cava
+    vulkan-loader
+    vulkan-tools
+    vulkan-validation-layers
   ];
 }

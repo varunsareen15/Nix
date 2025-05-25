@@ -18,6 +18,7 @@
       "$mainMod, B, exec, brave"
       "$mainMod, L, exec, hyprlock --immediate"
       "$mainMod, Z, exec, flatpak run --socket=wayland app.zen_browser.zen"
+      "$mainMod CTRL, D, exec, flatpak run --socket=wayland com.discordapp.Discord"
 
       # Switching workspaces
       "$mainMod, 1, workspace, 1"
