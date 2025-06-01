@@ -24,7 +24,6 @@
       hotspot = "sudo nmcli device wifi connect 'Varun (2)'";
       wifi = "sudo ifconfig wlp4s0";
       eth = "sudo ifconfig eno1";
-      token = "echo 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";
       gsync = "git pull https://github.com/varunsareen15/Nix main";
       BX17 = "bluetoothctl connect 59:21:E5:C7:1E:2B";
       bose = "bluetoothctl connect C8:7B:23:A1:D6:F8";
