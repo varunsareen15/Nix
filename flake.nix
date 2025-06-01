@@ -23,11 +23,11 @@
 
   outputs = { self, nixpkgs, nixpkgs-stable, home-manager, nvf, ... }@inputs: let
     system = "x86_64-linux";
-    homeStateVersion = "24.11";
+    homeStateVersion = "25.05";
     user = "varun";
 
     hosts = [
-      { hostname = "unit"; stateVersion = "24.11"; }
+      { hostname = "unit"; stateVersion = "25.05"; }
       { hostname = "geass"; stateVersion = "24.11"; }
     ];
 
