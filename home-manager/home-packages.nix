@@ -53,6 +53,7 @@
     bat
     sqlcmd
     rclone
+    gh
 
     # Coding stuff
     nodejs
