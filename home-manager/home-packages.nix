@@ -18,6 +18,7 @@
     virt-manager
     wine
     libreoffice-qt6
+    qbittorrent
 
     # CLI utils
     bc
