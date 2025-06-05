@@ -10,5 +10,8 @@
     username = user;
     homeDirectory = "/home/${user}";
     stateVersion = homeStateVersion;
+    sessionPath = [
+      "/home/${user}/.cargo/bin"
+    ];
   };
 }

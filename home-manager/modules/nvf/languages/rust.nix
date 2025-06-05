@@ -1,5 +1,5 @@
 {
-  programs.nvf.settings.vim.languages.python = {
+  programs.nvf.settings.vim.languages.rust = {
     enable = true;
     dap.enable = true;
     format.enable = true;
