@@ -90,5 +90,6 @@
     vulkan-loader
     vulkan-tools
     vulkan-validation-layers
+    wireguard-tools
   ];
 }
