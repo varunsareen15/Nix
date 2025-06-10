@@ -50,7 +50,6 @@
     zip
     tree
     btop
-    ani-cli
     bat
     sqlcmd
     rclone

@@ -29,6 +29,7 @@
       bose = "bluetoothctl connect C8:7B:23:A1:D6:F8";
       zen = "flatpak run --socket=wayland app.zen_browser.zen";
       mssql = "sqlcmd -S onanatrials.database.windows.net -U onana -P sqltrial@123";
+      cal = "tui-calendar";
     };
   };
 }
