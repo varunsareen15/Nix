@@ -53,6 +53,7 @@
     bat
     sqlcmd
     rclone
+    clock-rs
 
     # Coding stuff
     nodejs
