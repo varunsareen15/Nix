@@ -27,7 +27,7 @@
       ];
 
       animations = {
-        enabled = true;
+        enabled = false;
         
         bezier = [
           "smoothOut, 0.36, 0, 0.66, -0.56"
@@ -72,11 +72,11 @@
 
       decoration = {
         blur = {
-          enabled = true;
+          enabled = false;
 	};
 
 	shadow = {
-	  enabled = true;
+	  enabled = false;
 	};
 
 	active_opacity = 1.0;
@@ -91,11 +91,11 @@
 
       general = {
         allow_tearing = false;
-	border_size = 5;
+	border_size = 1;
 	"col.active_border" = "rgba(d65d0eff) rgba(98871aff) 45deg";
 	"col.inactive_border" = "rgba(3c3836ff)";
-	gaps_in = 3;
-	gaps_out = 5;
+	gaps_in = 0;
+	gaps_out = 0;
 	layout =  "master";
 	resize_on_border = true;
 	no_border_on_floating = true;
@@ -120,7 +120,7 @@
       };
 	
       master = {
-        mfact = 0.5;
+        mfact = 0.6;
 	new_on_top = true;
 	new_status = "slave";
       };
