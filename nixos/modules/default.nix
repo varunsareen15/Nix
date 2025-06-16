@@ -16,5 +16,6 @@
     ./printing.nix
     ./trackpad.nix
     ./virtualisation.nix
+    ./tailscale.nix
   ];
 }
