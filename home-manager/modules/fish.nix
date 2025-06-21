@@ -31,6 +31,7 @@
       mssql = "sqlcmd -S onanatrials.database.windows.net -U onana -P sqltrial@123";
       cal = "tui-calendar";
       branch-reset = "git fetch origin && git reset --hard origin/main";
+      hypridle = "hyprctl dispatch exec hypridle";
     };
   };
 }
