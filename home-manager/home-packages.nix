@@ -54,6 +54,7 @@
     sqlcmd
     rclone
     clock-rs
+    expressvpn
 
     # Coding stuff
     nodejs
