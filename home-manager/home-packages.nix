@@ -55,6 +55,7 @@
     rclone
     clock-rs
     expressvpn
+    tmux
 
     # Coding stuff
     nodejs
