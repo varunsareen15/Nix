@@ -72,6 +72,7 @@
     glibc
     dotnet-sdk
     texliveFull
+    python3Full
 
     # WM packages
     libsForQt5.xwaylandvideobridge
