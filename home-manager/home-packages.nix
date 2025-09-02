@@ -75,7 +75,7 @@
     python3Full
 
     # WM packages
-    libsForQt5.xwaylandvideobridge
+    kdePackages.xwaylandvideobridge
     libnotify
     xdg-desktop-portal-gtk
     xdg-desktop-portal-hyprland
