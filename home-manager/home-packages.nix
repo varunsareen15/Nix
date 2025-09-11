@@ -11,7 +11,6 @@
     teams-for-linux
     spotify
     zathura
-    vscode
     ranger
     zoom-us
     qemu
@@ -72,7 +71,7 @@
     glibc
     dotnet-sdk
     texliveFull
-    python3Full
+    python3
 
     # WM packages
     kdePackages.xwaylandvideobridge
